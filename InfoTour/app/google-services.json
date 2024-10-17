@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862421178435",
+    "project_id": "desafio3-db087",
+    "storage_bucket": "desafio3-db087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862421178435:android:b184300ebd909a8a1bdcf6",
+        "android_client_info": {
+          "package_name": "com.example.infotour"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj1NEO6r6Xh-nuxtfjO4ZXVQC64Jt8hcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
