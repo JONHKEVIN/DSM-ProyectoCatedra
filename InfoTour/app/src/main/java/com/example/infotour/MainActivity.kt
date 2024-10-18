@@ -21,6 +21,11 @@ class MainActivity : AppCompatActivity() {
         btnLogout.setOnClickListener {
             logout()
         }
+
+        val btnStartJourney: Button = findViewById(R.id.btnStartJourney)
+        btnStartJourney.setOnClickListener {
+            startJourney()
+        }
     }
 
     private fun logout() {
@@ -31,5 +36,11 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         finish() // Opcional: cerrar la actividad actual
+    }
+
+    private fun startJourney() {
+        // Redirigir a la actividad de turismo
+        val intent = Intent(this, TurismoActivity::class.java) // Asegúrate de que el nombre de la actividad sea correcto
+        startActivity(intent)
     }
 }

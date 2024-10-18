@@ -48,11 +48,17 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.play.services.maps)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.9.0")
 }
 
 apply(plugin = "com.google.gms.google-services")
+apply(plugin = "kotlin-kapt")

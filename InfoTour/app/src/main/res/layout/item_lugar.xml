@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorCardBackground"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:elevation="4dp">
+
+    <ImageView
+        android:id="@+id/imgLugar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/btnVerMas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver más"
+        android:textColor="@color/colorButtonText"
+        android:backgroundTint="@color/colorButtonBackground"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnObtenerIndicaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener Indicaciones"
+        android:textColor="@color/colorButtonText"
+        android:backgroundTint="@color/colorButtonBackground"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

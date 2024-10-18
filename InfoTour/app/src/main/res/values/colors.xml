@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorBackground">#F4F4F4</color> <!-- Fondo claro -->
+    <color name="colorPrimary">#2C85FF</color> <!-- Azul principal -->
+    <color name="colorPrimaryDark">#005EB8</color> <!-- Azul oscuro -->
+    <color name="colorAccent">#FF5722</color> <!-- Naranja para acentos -->
+    <color name="colorTextPrimary">#004D40</color> <!-- Texto principal -->
+    <color name="colorTextSecondary">#757575</color> <!-- Texto secundario -->
+    <color name="colorCardBackground">#FFFFFF</color> <!-- Fondo de tarjeta -->
+    <color name="colorButtonBackground">#2C85FF</color> <!-- Fondo del botón -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- Texto del botón -->
+    <color name="backgroundColor">#F4F4F4</color> <!-- Añadido aquí -->
 </resources>
